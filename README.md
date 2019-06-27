@@ -5,7 +5,7 @@
 
 ```
 brew install yarn watchman
-$ yarn install
+yarn install
 ```
 
 ## Running
