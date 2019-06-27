@@ -1,9 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react-native'
-import { TimelineProgress } from '@loadsmart/blocks'
+import { LineStyle, TimelineProgress } from '@loadsmart/blocks'
 import { CenterDecorator } from '../../decorators'
 import { boolean } from '@storybook/addon-knobs'
-import { LineStyle } from '@loadsmart/blocks/src/components/Timeline/TimelineProgress'
 
 storiesOf('Timeline', module)
   .addDecorator(CenterDecorator)

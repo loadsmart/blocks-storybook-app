@@ -1,52 +1,9 @@
 version: 2
 jobs:
-  test:
-    working_directory: ~/blocks
-    docker:
-      - image: circleci/node:11.10.1
-    steps:
-      - checkout
-
-      - restore_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
-
-      - restore_cache:
-          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
-
-      - run: yarn install
-
-      - save_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
-          paths:
-            - ~/.cache/yarn
-
-      - save_cache:
-          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
-          paths:
-            - node_modules
-
-      - run:
-          name: jest tests
-          command: |
-            mkdir -p test-results/jest
-            yarn jest --maxWorkers=2
-          environment:
-            JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
-
-      - store_test_results:
-          path: test-results
-
-      - store_artifacts:
-          path: test-results
-
-      - run:
-          name: codecov
-          command: ./node_modules/codecov/bin/codecov
-
   distribute_ios:
     macos:
       xcode: "10.2.0"
-    working_directory: ~/blocks
+    working_directory: ~/blocks-storybook-app
 
     # use a --login shell so our "set Ruby version" command gets picked up for later steps
     shell: /bin/bash --login -o pipefail
@@ -97,10 +54,7 @@ workflows:
   version: 2
   general:
     jobs:
-      - test
       - distribute_ios:
-          requires:
-            - test
           filters:
             branches:
               only: master
