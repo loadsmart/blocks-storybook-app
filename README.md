@@ -1,5 +1,5 @@
-# Blocks Storybook App
-:iphone: Sample App for Loadsmart's React Native Components
+# :iphone: Blocks Storybook App
+Sample App for Loadsmart's React Native Components
 
 ## Installation
 
