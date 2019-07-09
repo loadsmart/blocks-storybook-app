@@ -2,7 +2,13 @@ import React from 'react'
 import { storiesOf } from '@storybook/react-native'
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
 import { CenterPaddedDecorator } from '../../decorators'
-import { ButtonDisplayState, SecondaryButton, ButtonHeight, Images } from '@loadsmart/blocks'
+import {
+  ButtonDisplayState,
+  ButtonDisplayStyle,
+  SecondaryButton,
+  ButtonHeight,
+  Images,
+} from '@loadsmart/blocks'
 import { Alert } from 'react-native'
 
 storiesOf('Buttons', module)
@@ -33,8 +39,17 @@ storiesOf('Buttons', module)
       ButtonDisplayState.Normal
     )
 
+    const displayStyle = select(
+      'Style',
+      {
+        Dark: ButtonDisplayStyle.Dark,
+        Light: ButtonDisplayStyle.Light,
+      },
+      ButtonDisplayStyle.Dark
+    )
+
     const onPress = () => Alert.alert('onPress')
 
-    const props = { icon, title, displayState, buttonHeight, onPress }
+    const props = { icon, title, displayState, displayStyle, buttonHeight, onPress }
     return <SecondaryButton {...props} />
   })

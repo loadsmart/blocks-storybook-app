@@ -1019,10 +1019,10 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@loadsmart/blocks@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@loadsmart/blocks/-/blocks-0.10.0.tgz#75d05cfcee7b710e2af4c90fd6637c053b766a95"
-  integrity sha512-YcxbEphVAHJg8Gk1QEFyK+w0VkjEbvwnPaY/UrQ1IQ8x/+zkliHiQuj/kqz7B7NOLOJHzNvN0+HeaK0vJRkjqQ==
+"@loadsmart/blocks@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@loadsmart/blocks/-/blocks-0.11.0.tgz#ebac3d7deb5aa3f48be10e88740fda5a48a35bd3"
+  integrity sha512-w+rvMLpOikRMXxMZGZsnsgbJOB4+FzUc6thVkHqdA7DIIb3bsebDv8xIYdZ2TQ6nftsQ58Jp47M4rEq8cp2Yhg==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

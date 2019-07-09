@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react-native'
 import { withKnobs, text, select } from '@storybook/addon-knobs'
 import { CenterPaddedDecorator } from '../../decorators'
-import { TertiaryButton, TertiaryButtonDisplayStyle } from '@loadsmart/blocks'
+import { TertiaryButton, ButtonDisplayStyle } from '@loadsmart/blocks'
 import { Alert } from 'react-native'
 
 storiesOf('Buttons', module)
@@ -14,10 +14,10 @@ storiesOf('Buttons', module)
     const displayStyle = select(
       'Style',
       {
-        Dark: TertiaryButtonDisplayStyle.Dark,
-        Light: TertiaryButtonDisplayStyle.Light,
+        Dark: ButtonDisplayStyle.Dark,
+        Light: ButtonDisplayStyle.Light,
       },
-      TertiaryButtonDisplayStyle.Dark
+      ButtonDisplayStyle.Dark
     )
 
     const onPress = () => Alert.alert('onPress')
