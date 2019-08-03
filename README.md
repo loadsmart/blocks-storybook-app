@@ -1,5 +1,5 @@
 # :iphone: Blocks' Storybook App
-Sample App for Loadsmart's React Native Components
+Sample App for Loadsmart's React Native Components. If you're looking for the library itself, you can find it [here](https://github.com/loadsmart/blocks).
 
 ## Installation
 
