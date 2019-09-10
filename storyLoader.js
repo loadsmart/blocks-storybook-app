@@ -16,6 +16,7 @@ function loadStories() {
   require('./src/components/Radios/Radio.story')
   require('./src/components/Selectors/RadioSelector.story')
   require('./src/components/TextInputs/TextInput.story')
+  require('./src/components/TextInputs/PasswordTextInput.story')
   require('./src/components/Timeline/TimelineItem.story')
   require('./src/components/Timeline/TimelineProgress.story')
 }
@@ -33,6 +34,7 @@ const stories = [
   './src/components/Radios/Radio.story',
   './src/components/Selectors/RadioSelector.story',
   './src/components/TextInputs/TextInput.story',
+  './src/components/TextInputs/PasswordTextInput.story',
   './src/components/Timeline/TimelineItem.story',
   './src/components/Timeline/TimelineProgress.story',
 ]

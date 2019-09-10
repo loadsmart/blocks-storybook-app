@@ -16,7 +16,7 @@
     "xcode": "open ios/example.xcodeproj"
   },
   "dependencies": {
-    "@loadsmart/blocks": "file:../blocks",
+    "@loadsmart/blocks": "../blocks",
     "@storybook/addon-actions": "4.0.11",
     "@storybook/addon-knobs": "4.0.11",
     "@storybook/addon-links": "4.0.11",

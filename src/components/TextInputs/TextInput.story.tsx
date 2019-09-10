@@ -11,6 +11,3 @@ storiesOf('Text Inputs', module)
   .add('Email', () => {
     return <TextInput keyboardType={'email-address'}>mobile@loadsmart.com</TextInput>
   })
-  .add('Password', () => {
-    return <TextInput secureTextEntry={true}>s3cr3tp4ss</TextInput>
-  })
