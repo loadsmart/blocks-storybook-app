@@ -1042,7 +1042,7 @@
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
 "@loadsmart/blocks@../blocks":
-  version "1.0.0"
+  version "1.1.0"
   
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
