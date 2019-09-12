@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@loadsmart/blocks": "../blocks",
+    "@sambego/storybook-state": "^1.3.6",
     "@storybook/addon-actions": "4.0.11",
     "@storybook/addon-knobs": "4.0.11",
     "@storybook/addon-links": "4.0.11",
