@@ -3,6 +3,10 @@ Sample App for Loadsmart's React Native Components. If you're looking for the li
 
 ## Installation
 
+First, make sure you have a local copy of [blocks](https://github.com/loadsmart/blocks) in the same directory level that you cloned this repo. The sample app will use this local version to render the components, making the process of editing or creating new ones easier for you.
+
+Then install the other dependencies:
+
 ```
 brew install yarn watchman
 yarn install
