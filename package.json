@@ -6,11 +6,12 @@
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
     "clear": "rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-*",
     "deploy": "yarn workspaces run publish",
-    "hard-reset": "watchman watch-del-all && rm -rf node_modules && yarn install",
+    "hard-reset": "watchman watch-del-all && rm -rf node_modules && yarn install && yarn reinstall-blocks",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "postinstall": "rm -rf node_modules/@loadsmart/blocks/node_modules/",
     "prestorybook": "rnstl",
     "prettier-write": "prettier --write",
+    "reinstall-blocks": "cd ../blocks && yarn build && cd - && yarn add ../blocks",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "storybook": "storybook start -p 7007 -c .storybook",
     "xcode": "open ios/example.xcodeproj"
