@@ -8818,10 +8818,10 @@ simple-git@^1.85.0:
   dependencies:
     debug "^4.0.1"
 
-simple-markdown@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/simple-markdown/-/simple-markdown-0.4.4.tgz#9bd597bdd5c2f5a789e56a4dbf06427d76c3834f"
-  integrity sha512-ZmlNUGR1KI12sPHeQ7dQY1qM5KfOgFqClNNVO8zQ9Pg6u7gHLCPFGD+VC7MCwpGDMd1uw3Bb2TfFfR8d6bB34A==
+simple-markdown@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/simple-markdown/-/simple-markdown-0.5.2.tgz#9b5e302122f6a8e98173371d83a225f5518e3103"
+  integrity sha512-HtfHMkT6C+vwPoY/AmDv71GMFK5NcNYN6HhT8W3hbYOrbWDlo+EkrFhM6cCGLh9qQj+AdRvlI3dlmtK4bDIhag==
 
 "simple-markdown@git://github.com/CharlesMangwa/simple-markdown.git":
   version "0.1.1"
