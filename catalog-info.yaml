@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: blocks-storybook-app
-  description: :iphone: Sample App for Loadsmart's React Native Components
+  description: Sample App for Loadsmart's React Native Components
   annotations:
     github.com/project-slug: loadsmart/blocks-storybook-app
   tags:
@@ -10,4 +10,4 @@ metadata:
 spec:
   type: other
   lifecycle: production
-  owner: <CODE-OWNER>
+  owner: mobile
